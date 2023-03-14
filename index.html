@@ -5,6 +5,9 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.cdnfonts.com/css/space-age-cyrillic" rel="stylesheet">
 </head>
 <body>
 
@@ -24,8 +27,383 @@
     </div>
     <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
+    <section class="main">
+        
+        <header class="header">
+            <nav class="header__navbar">
+                <a href="#about" class="header__navbar-link">О НАС</a>
+                <a href="#offer" class="header__navbar-link">СТОИМОСТЬ</a>
+                <a href="#options" class="header__navbar-link">ДОП.УСЛУГИ</a>
+                <a href="#guarantee" class="header__navbar-link">ГАРАНТИИ</a>
+                <a href="#" class="header__navbar-link">НОВОСТИ</a>
+            </nav>
+            <p class="header__number">
+                0 800 000 000 00
+                <img src="./img/header_icon.svg" alt="icon" class="header__icon">
+            </p>
+            
+        </header>
+
+        <section class="intro">
+            <div class="intro__info">
+                <div class="intro__title">
+                    <h2 class="intro__title">КОСМИЧЕСКИЙ</h2>
+                    <h1 class="intro__title">ТУРИЗМ</h1>
+                </div>
+                <div class="intro__moto">
+                    <p class="moto__phrase">Будущее уже наступило!</p>
+                    <p class="moto__phrase">Осуществи мечту детства!</p>
+                </div>
+                <button class="button intro">Хочу быть космонавтом!</button>
+            </div>
+
+            <div class="history">
+                <p class="history__paragraph">
+                    В 2021 году наступила новая эра в освоении космоса - эра космического туризма. Частные компании получили доступ к космическому пространству. 
+                </p>
+                <p class="history__paragraph">
+                    Между ними обострилась конкуренция, а цена билета на полеты в космическое пространство снизилась в сто раз.
+                </p>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about__container">
+                <h2 class="title about">О НАС</h2>
+                
+                <div class="container virgin-galactic">
+                    <img src="./img/container_photo-virgin-galactic_small.png" alt="photo" class="container__photo virgin-galactic">
+                    <div class="container__info">
+                        <h3 class="container__info-title">Virgin Galactic</h3>
+                        <p class="container__info-subtitle">суборбитальный полет</p>
+                        <div class="history virgin-galactic">
+                            <p class="history__paragraph">
+                                Компания Virgin Galactic 11 июля 2021 осуществила первый "туристический" суборбитальный полет со своим основателем, британским миллиардером Ричардом Брэнсоном на борту.
+                            </p>
+                            <p class="history__paragraph">
+                                Корабль "Unity 22" стартовал с космического порта "Америка" в штате Нью-Мексико с помощью самолета-носителя VMS Eve. Позже он отсоединился от самолета-носителя.
+                            </p>
+                            <p class="history__paragraph">
+                                Руководство Virgin Galactic надеется, что массовые суборбитальные космические полеты начнутся до 2022 года. 
+                            </p>
+                        </div>
+                        <div class="calculation">
+                            <div class="border-top"></div>
+                            <div class="calculation__items">
+                                <p class="calculation__item">время в пути</p>
+                                <p class="calculation__item">расстояние</p>
+                                <p class="calculation__item">в невесомости</p>
+                                <p class="calculation__item">стоимость</p>
+                                <p class="calculation__item">вернешься?</p>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <div class="calculation__values">
+                                <div class="value">
+                                    <p class="value-number">1</p>
+                                    <p class="value-unit">час</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">80</p>
+                                    <p class="value-unit">км</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">4-5</p>
+                                    <p class="value-unit">мин</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">250</p>
+                                    <p class="value-unit">тыс.дол</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">99</p>
+                                    <p class="value-unit">%</p>
+                                </div>
+                            </div>
+                            <div class="border-bottom"></div>
+                        </div>
+                        <button class="button virgin-galactic">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
+                    </div>
+                </div>
+
+                <div class="container blue-origin">
+                    <div class="container__info">
+                        <h3 class="container__info-title">Blue Origin</h3>
+                        <p class="container__info-subtitle">суборбитальный полет</p>
+                        <div class="history blue-origin">
+                            <p class="history__paragraph">
+                                Суборбитальные ракета New Shepard компании Blue Origin 20 июля 2021года впервые в истории компании вывела на космическую высоту капсулу с людьми, с самым богатым человеком мира Джеффом  Безосом на борту.
+                            </p>
+                            <p class="history__paragraph">
+                                New Shepard высотой 18 м и шириной 4 м - многоразовый космический аппарат. Бустерная установка поднимает герметичное пассажирское судно на высоту около 76 км. Импульс преподносит капсулу вверх в космос. 
+                            </p>
+                            <p class="history__paragraph">
+                                После этого она опускается на землю под тремя парашютами. Ракета-носитель тоже возвращается домой.
+                            </p>
+                        </div>
+                        <div class="calculation">
+                            <div class="border-top"></div>
+                            <div class="calculation__items">
+                                <p class="calculation__item">время в пути</p>
+                                <p class="calculation__item">расстояние</p>
+                                <p class="calculation__item">в невесомости</p>
+                                <p class="calculation__item">стоимость</p>
+                                <p class="calculation__item">вернешься?</p>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <div class="calculation__values">
+                                <div class="value">
+                                    <p class="value-number">10</p>
+                                    <p class="value-unit">час</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">100</p>
+                                    <p class="value-unit">км</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">4-5</p>
+                                    <p class="value-unit">мин</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">250</p>
+                                    <p class="value-unit">тыс.дол</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">99</p>
+                                    <p class="value-unit">%</p>
+                                </div>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <p class="comment">
+                                * стоимость 200-250 тыс. дол. по четным/нечетным или как повезет
+                            </p>
+                        </div>
+                        <button class="button blue-origin">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
+                    </div>
+                    <img src="./img/container_photo-blue-origin_small.png" alt="photo" class="container__photo blue-origin">
+                </div>
+
+                <div class="container space-x">
+                    <img src="./img/container_photo-space-x_small.png" alt="photo" class="container__photo space-x">
+                    <div class="container__info">
+                        <h3 class="container__info-title">SpaceX</h3>
+                        <p class="container__info-subtitle">А может на Луну или Марс?</p>
+                        <div class="history space-x">
+                            <p class="history__paragraph">
+                                В 2016 году на 67-м ежегодном Международном конгрессе астронавтики Илон Маск заявил, что оптимистичный временной график предусматривает первый полет к Марсу в 2022 году (доставка груза).
+                            </p>
+                            <p class="history__paragraph">
+                                Полет с экипажем - в 2024 году.
+                                На Красную планету экипаж прибудет в 2025-26 году.
+                                "Я начал SpaceX, потому что хотел помочь снизить стоимость космических перевозок, чтобы основать жизни на другой планете".
+                            </p>
+                            <p class="history__paragraph">
+                                Если все пойдет по плану, то благодаря Маск к 2050 году жителями Красной планеты смогут себя назвать около миллиона человек. Туда их доставит флотилия из тысячи кораблей Starship.
+                            </p>
+                        </div>
+                        <div class="calculation">
+                            <div class="border-top"></div>
+                            <div class="calculation__items">
+                                <p class="calculation__item">время в пути</p>
+                                <p class="calculation__item">расстояние</p>
+                                <p class="calculation__item">в невесомости</p>
+                                <p class="calculation__item">стоимость</p>
+                                <p class="calculation__item">вернешься?</p>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <div class="calculation__values">
+                                <div class="value">
+                                    <p class="value-number">150</p>
+                                    <p class="value-unit">дней</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">55</p>
+                                    <p class="value-unit">млн. км</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">много</p>
+                                    <p class="value-unit">мин</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">10</p>
+                                    <p class="value-unit">млрд. дол</p>
+                                </div>
+                                <div class="value">
+                                    <p class="value-number">1</p>
+                                    <p class="value-unit">%</p>
+                                </div>
+                            </div>
+                            <div class="border-bottom"></div>
+                        </div>
+                        <button class="button space-x">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="process__container">
+                <div class="process__title">Как все происходит</div>
+                <img src="./img/process_img.png" alt="img" class="process_img">
+            </div>
+        </section>
+
+        <section class="future">
+            <div class="future__container">
+                <h2 class="future__title">Успей забронировать!</h2>
+                <div class="history future">
+                    <p class="history__paragraph">
+                        Руководство Virgin Galactic надеется, что массовые суборбитальные космические полеты начнутся до 2022 года. Компания уже несколько лет продает билеты на такие полеты по 250 тыс долл.
+                    </p>
+                    <p class="history__paragraph">
+                        Virgin Galactic получила задатков более чем 80 млн долл, а количество желающих превышает 600 человек.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="marketing">
+            <div class="offer__container" id="offer">
+                <h2 class="offer__title">Спец предложения</h2>
+
+                <div class="offer__items">
+                    <div class="offer__item">
+                        <div class="offer__item-wrapper">
+                            <p class="offer__item-text">
+                                Забронируй полет <span>прямо сейчас</span> <br>и получи скидку 1000$
+                            </p>
+                            <img src="./img/old-price.png" alt="img" class="old-price">
+                            <p class="offer__item-price">249 000 $</p>
+                        </div>
+                        <button class="button offer">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__item-wrapper">
+                            <p class="offer__item-text">
+                                Приведи друга и получи <span>скидку 10%</span> на следующий полет, если вернешься
+                            </p>
+                            <img src="./img/old-price.png" alt="img" class="old-price">
+                            <p class="offer__item-price">225 000 $</p>
+                        </div>
+                        <button class="button offer">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options__container" id="options">
+                <h2 class="options__title">Дополнительные услуги</h2>
+                <img src="./img/options_img.svg" alt="img" class="options__img">
+                <div class="options__info">
+                    <div class="options__wrapper">
+                        <p class="options__items-heading">
+                            С Вами полетит профессиональный фотограф
+                        </p>
+                        <div class="options__items">
+                            <div class="options__item">
+                                <img src="./img/options_item-icon.svg" alt="icon" class="options__item-icon">
+                                <p class="options__item-text">
+                                    20 фотографий в профессиональной обработке
+                                </p>
+                            </div>
+    
+                            <div class="options__item">
+                                <img src="./img/options_item-icon.svg" alt="icon" class="options__item-icon">
+                                <p class="options__item-text">
+                                    фото книга
+                                </p>
+                            </div>
+    
+                            <div class="options__item">
+                                <img src="./img/options_item-icon.svg" alt="icon" class="options__item-icon">
+                                <p class="options__item-text">
+                                    магнит на холодильник в подарок
+                                </p>
+                            </div>
+                        </div>
+                        <p class="comment options">
+                            Стоимость фотосессии в невесомости 100 000 $. Доплати 50 000 $ и получи все фото в цветокоррекции на диске.
+                        </p>
+                    </div>
+                    <div class="options__buttons">
+                        <button class="button options">КУПИТЬ УСЛУГИ ФОТОГРАФА</button>
+                        <button class="button options">ХОЧУ И ДИСК</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider__container">
+                <div class="slider__wrapper">
+                    <div class="slider__box">
+                        <img src="./img/slider_arrow-next.png" alt="icon" class="slider__arrow next">
+                        <img src="./img/slider_photo-small.png" alt="photo" class="slider__photo">
+                        <img src="./img/slider_arrow-prev.png" alt="icon" class="slider__arrow prev">
+                    </div>
+                </div>
+                <p class="slider__law">
+                    Ты знаешь о Космическом законе – представь себе то, что ты хочешь, и оно войдет в твою жизнь.
+                </p>
+            </div>
+        </div>
+
+        <section class="contacts">
+            <div class="contacts__wrapper">
+                <div class="contacts__container">
+                    <div class="block contacts">
+                        <h2 class="title contacts">Контакты</h2>
+                        <p class="text contacts">
+                            Оставь свои контакты и мы перезвоним тебе в ближайшие 100 лет!
+                        </p>
+                    </div>
+
+                    <div class="block guarantee" id="guarantee">
+                        <h2 class="title guarantee">Гарантии</h2>
+                        <p class="text guarantee">
+                            Ни одна моя ракета еще не сделала удачную попытку, потому что в ней не было тебя! <br>Будь первым! Колонизируй Марс! <br>Илон Маск
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contacts__form">
+                    <div class="form">
+                        <input type="text" class="form__input name" placeholder="ФИО">
+                        <input type="text" class="form__input relative-name" placeholder="Имя ребенка или внука (на всякий случай)">
+                        <input type="phone" class="form__input phone" placeholder="Телефон">
+                        <button class="button contacts">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
+                    </div>
+                    <img src="./img/contacts_photo-ilon.png" alt="photo" class="contacts__photo">
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__block-schedule">
+                    <p class="block-schedule-paragraph">
+                        Служба поддержки работает межгалактично и суборбитально
+                    </p>
+                    <p class="block-schedule-paragraph">
+                        График приема посетителей строго по записи
+                    </p>
+                </div>
+
+                <nav class="footer__navbar">
+                    <a href="#about" class="footer__navbar-link">О НАС </a>
+                    <a href="#offer" class="footer__navbar-link">СТОИМОСТЬ</a>
+                    <a href="#options" class="footer__navbar-link">ДОП. УСЛУГИ</a>
+                    <a href="#guarantee" class="footer__navbar-link">ГАРАНТИИ</a>
+                    <a href="#" class="footer__navbar-link">НОВОСТИ</a>
+                </nav>
+
+                <div class="footer__contacts">
+                    <a href="https://www.spacex.com/" class="footer__contacts-website">spacex.com</a>
+                    <a href="https://www.blueorigin.com/" class="footer__contacts-website">blueorigin.com</a>
+                    <a href="https://www.virgingalactic.com/" class="footer__contacts-website">virgingalactic.com</a>
+                    <p class="footer__number">0 800 000 000 00</p>
+                    <a href="https://www.roscosmos.ru/202/" class="footer__contacts-website">МКС</a>
+                </div>
+            </div>
+        </footer>
+
     </div>
 
 </body>

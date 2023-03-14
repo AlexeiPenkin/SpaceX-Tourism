@@ -1,16 +1,4 @@
-# Заготовка для верстки макетов
+# Верстка макета
+Источник макета Telegram-канал [FIGMA | Макеты для верстки](https://t.me/+oXZSKMmXp6UyOGI6)
 
-## Как работать? Краткая пошаговая инструкция.
-1. Создайте свой репозиторий для верстки данного макета
-2. Склонируйте текущий репозиторий
-3. Удалите файл README.md и переименуйте файл README.tmp в README.md
-4. Выполните Commit всех своих изменений и сделайте Push в свой репозиторий
-5. Включите **GitHub Pages**
-6. Отправьте ссылку боту на **GitHub репозиторий**
-7. Готово
-
-[Инструкцию "Как работать с Git"](https://figmatohtml.notion.site/Git-4f6201ace2ae4f109cc3ec74feb1961b)
-
-[Инструкцию "Функция GitHub Pages"](https://figmatohtml.notion.site/GitHub-Pages-6266e77074274a728ace3bb60b355986)
-
-[Правила](https://figmatohtml.notion.site/7d3e52a516734f99935b08c56d3d7d50)
+Ссылка на макет: https://www.figma.com/file/NcCMkcyK5WX9NMB4taHo6F/%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D1%83%D1%80%D0%B8%D0%B7%D0%BC
