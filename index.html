@@ -4,10 +4,11 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.cdnfonts.com/css/space-age-cyrillic" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/space-age-cyrillic" rel="preload" as="font">
 </head>
 <body>
 
@@ -71,7 +72,7 @@
                 <h2 class="title about">О НАС</h2>
                 
                 <div class="container virgin-galactic">
-                    <img src="./img/container_photo-virgin-galactic_small.png" alt="photo" class="container__photo virgin-galactic">
+                    <img src="./img/container_photo-virgin-galactic_small.png" width="500" height="540" alt="photo" class="container__photo virgin-galactic">
                     <div class="container__info">
                         <h3 class="container__info-title">Virgin Galactic</h3>
                         <p class="container__info-subtitle">суборбитальный полет</p>
@@ -178,11 +179,11 @@
                         </div>
                         <button class="button blue-origin">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
                     </div>
-                    <img src="./img/container_photo-blue-origin_small.png" alt="photo" class="container__photo blue-origin">
+                    <img src="./img/container_photo-blue-origin_small.png" width="500" height="700" alt="photo" class="container__photo blue-origin">
                 </div>
 
                 <div class="container space-x">
-                    <img src="./img/container_photo-space-x_small.png" alt="photo" class="container__photo space-x">
+                    <img src="./img/container_photo-space-x_small.png" width="500" height="603" alt="photo" class="container__photo space-x">
                     <div class="container__info">
                         <h3 class="container__info-title">SpaceX</h3>
                         <p class="container__info-subtitle">А может на Луну или Марс?</p>
@@ -291,7 +292,7 @@
 
             <div class="options__container" id="options">
                 <h2 class="options__title">Дополнительные услуги</h2>
-                <img src="./img/options_img.svg" alt="img" class="options__img">
+                <img src="./img/options_img.svg" width="192" height="150" alt="img" class="options__img">
                 <div class="options__info">
                     <div class="options__wrapper">
                         <p class="options__items-heading">
@@ -333,9 +334,9 @@
             <div class="slider__container">
                 <div class="slider__wrapper">
                     <div class="slider__box">
-                        <img src="./img/slider_arrow-next.png" alt="icon" class="slider__arrow next">
-                        <img src="./img/slider_photo-small.png" alt="photo" class="slider__photo">
-                        <img src="./img/slider_arrow-prev.png" alt="icon" class="slider__arrow prev">
+                        <img src="./img/slider_arrow-next.png" width="100" height="1" alt="icon" class="slider__arrow next">
+                        <img src="./img/slider_photo-small.png" width="800" height="450" alt="photo" class="slider__photo">
+                        <img src="./img/slider_arrow-prev.png" width="100" height="1" alt="icon" class="slider__arrow prev">
                     </div>
                 </div>
                 <p class="slider__law">
@@ -369,7 +370,7 @@
                         <input type="tel" class="form__input phone" placeholder="Телефон">
                         <button class="button contacts">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
                     </div>
-                    <img src="./img/contacts_photo-ilon.png" alt="photo" class="contacts__photo">
+                    <img src="./img/contacts_photo-ilon.png" width="396" height="396" alt="photo" class="contacts__photo">
                 </div>
             </div>
         </section>
