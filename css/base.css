@@ -43,7 +43,12 @@ html{
     src: url('./../fonts/SFProDisplay-Bold.woff') format("woff");
     font-display: swap;
 }
-@import url('https://fonts.cdnfonts.com/css/space-age-cyrillic');
+@font-face {
+    font-family: 'Space Age Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Space Age Cyrillic'), url('https://fonts.cdnfonts.com/s/68302/spaceagecyrillicregular.woff') format('woff');
+}
 
 body{
     display: flex;
@@ -203,7 +208,7 @@ body{
 .about {
     display: flex;
     flex-direction: column;
-    background-image: url('../img/about_bckg.png');
+    background-image: url('../img/about_bckg.webp');
     background-repeat: no-repeat;
 }
 
@@ -383,7 +388,7 @@ body{
 .process {
     display: flex;
     height: 999px;
-    background-image: url('../img/process_bckg.png');
+    background-image: url('../img/process_bckg.webp');
 }
 .process__container {
     display: flex;
@@ -413,7 +418,7 @@ body{
 .future {
     display: flex;
     height: 914px;
-    background-image: url('../img/future_bckg.png');
+    background-image: url('../img/future_bckg.webp');
     background-repeat: no-repeat;
 }
 .future__container {
@@ -456,7 +461,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url('../img/marketing_bckg.png');
+    background-image: url('../img/marketing_bckg.webp');
     background-repeat: no-repeat;
 }
 
@@ -812,7 +817,7 @@ body{
 .footer {
     display: flex;
     height: 433px;
-    background-image: url('../img/footer_bckg.png');
+    background-image: url('../img/footer_bckg.webp');
     background-repeat: no-repeat;
 }
 .footer__container {
