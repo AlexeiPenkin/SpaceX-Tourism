@@ -210,7 +210,7 @@ body{
 .about__container {
     display: flex;
     flex-direction: column;
-    width: 1202px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -231,24 +231,22 @@ body{
     margin-bottom: 150px;
 }
 
-.container__photo {
+.container__photo .virgin-galactic {
     width: 500px;
     height: 540px;
 }
-.container__photo .virgin-galactic {
-    height: 540px;
-}
 .container__photo .blue-origin {
+    width: 500px;
     height: 700px;
 }
 .container__photo .space-x {
+    width: 500px;
     height: 603px;
 }
 .container__info {
     display: flex;
     flex-direction: column;
     width: 602px;
-    height: 546px;
 }
 .container__info-title {
     font-family: 'SF Pro Display';
